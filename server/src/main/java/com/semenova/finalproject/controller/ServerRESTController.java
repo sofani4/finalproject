@@ -18,7 +18,7 @@ public class ServerRESTController {
 
     @RequestMapping("/")
     public String home(){
-        return "Hello User host!";
+        return "Hello admin!";
     }
 
     // Вся информация о карте

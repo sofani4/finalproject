@@ -26,4 +26,8 @@ public class Card {
     private Currency currency;
     @Column(name="id_client")
     private int idClient;
+
+
+    public Card(int id, int cardNumber, int password, double balance, String currency, int id_client) {
+    }
 }
